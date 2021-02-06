@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jazz Club さくらんぼ</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2&appId=1581146438770691&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+</head>
+
+<body class="bg-light bg-gradient">
+  <div class="container bg-white">
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light bg-white">
+        <img src="./img/logo_sakuranbo.jpg" href="#" alt="Jazz Club さくらんぼ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#top">トップ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#live">ジャズライブ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#youtube">YouTube</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">メニュー</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#access">アクセス</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="live-photo" class="carousel slide" data-ride="carousel" data-bs-ride="carousel">
+      <div class="carousel-inner pb-3">
+        <div class="carousel-item active">
+          <img src="img/live_high/live10.jpg" class="d-block w-100" alt="ライブ写真">
+        </div>
+        <div class="carousel-item">
+          <img src="img/live_high/live11.jpg" class="d-block w-100" alt="ライブ写真">
+        </div>
+        <div class="carousel-item">
+          <img src="img/live_high/live00.jpg" class="d-block w-100" alt="ライブ写真">
+        </div>
+        <div class="carousel-item">
+          <img src="img/live_high/live01.jpg" class="d-block w-100" alt="ライブ写真">
+        </div>
+        <div class="carousel-item">
+          <img src="img/live_high/live03.jpg" class="d-block w-100" alt="ライブ写真">
+        </div>
+        <div class="carousel-item">
+          <img src="img/live_high/live07.jpg" class="d-block w-100" alt="ライブ写真">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#live-photo" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#live-photo" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+    <h1 class="w-auto fs-4 p-1 bg-success bg-gradient text-light" id="live">ジャズライブ</h1>
+    <div class="fs-6"><a href="https://www.facebook.com/SakuranboJazz">Facebookページ</a>のイベント、またはTel (<a
+        href="tel:0424880626">042-488-0626</a>) にてご予約ください</div>
+    <div class="p-2 pb-3">
+      <div style="text-align: center !important; margin: 0 auto !important;">
+        <div class="fb-page" data-href="https://www.facebook.com/SakuranboJazz/" data-tabs="events"
+          data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-width="320"
+          data-show-facepile="false">
+          <blockquote cite="https://www.facebook.com/SakuranboJazz/events" class="fb-xfbml-parse-ignore"><a
+              href="https://www.facebook.com/SakuranboJazz/events">さくらんぼ</a></blockquote>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="fs-4 p-1 bg-success bg-gradient text-light" id="youtube">YouTube</h1>
+    <div class="fs-6"><a href="https://www.youtube.com/user/sakuranbojazz/videos">YouTubeチャンネル</a>にて当店のライブ動画を公開中です</div>
+    <div class="text-center p-2 pb-3">
+      <iframe width="320" height="180" src="https://www.youtube.com/embed/?list=UU0hM1ghRFVGjsO8jvr5_MaQ"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <h1 class="fs-4 p-1 bg-success bg-gradient text-light" id="menu">メニュー</h1>
+    <div class="row">
+      <div class="col-lg-2 col-md-4 col-6 p-3 pt-2">
+        <img src="img/menu/cofee.jpg" class="card-img-top" alt="ブレンドコーヒー">
+        <div>ブレンドコーヒー</div>
+        <div>500yen</div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-6 p-3 pt-2">
+        <img src="img/menu/curry.jpg" class="card-img-top" alt="ハンバーグカレー">
+        <div>ハンバーグカレー</div>
+        <div>850yen</div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-6 p-3 pt-2">
+        <img src="img/menu/salada.jpg" class="card-img-top" alt=">トマトサラダ">
+        <div>サラダ各種</div>
+        <div>600yen</div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-6 p-3 pt-2">
+        <img src="img/menu/shouga-yaki.jpg" class="card-img-top" alt="しょうが焼き">
+        <div>しょうが焼き</div>
+        <div>850yen</div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-6 p-3 pt-2">
+        <img src="img/menu/naporitan.jpg" class="card-img-top" alt="ナポリタン">
+        <div>ナポリタン</div>
+        <div>850yen</div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-6 p-3 pt-2">
+        <img src="img/menu/beer.jpg" class="card-img-top" alt="キリン一番搾り【生】">
+        <div>キリン一番搾り</div>
+        <div>600yen</div>
+      </div>
+    </div>
+
+    <h1 class="fs-4 p-1 bg-success bg-gradient text-light" id="access">アクセス</h1>
+    <div class="fs-6">京王線 柴崎駅南口徒歩０分</div>
+    <div class="fs-6">改札口正面、赤煉瓦のビルの２階です</div>
+    <div class="text-center p-2 pb-3">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.925216086619!2d139.5674323!3d35.6542141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f04d1ff68bd7%3A0x6be743f361c60d0a!2z44CSMTgyLTAwMDcg5p2x5Lqs6YO96Kq_5biD5biC6I-K6YeO5Y-w77yS5LiB55uu77yS77yS4oiS77yT!5e0!3m2!1sja!2sjp!4v1432320473070"
+        width="100%" height="400" style="border:0"></iframe>
+    </div>
+
+    <footer>
+      <hr>
+      <address>
+        <div class="fs-6">Jazz Club さくらんぼ</div>
+        <div class="fs-6">京王線・柴崎駅南口改札前</div>
+        <div class="fs-6">年中無休　12:00 - 24:00
+          <wbr>（ライブ開催日のカフェ営業は17:00迄）
+        </div>
+        <div class="fs-6">〒182-0007 東京都調布市菊野台 2-22-3</div>
+        <div class="fs-6">Tel <a href="tel:0424880626">042-488-0626</a></div>
+      </address>
+    </footer>
+  </div>
+</body>
+
+</html>
